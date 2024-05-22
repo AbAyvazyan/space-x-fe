@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin-top: 1px;
   background-color: rgba(24, 24, 24, 0.3);
-  border: 1px solid rgba(248, 248, 248, 0.1);
+  border: 1px solid rgba(248, 248, 248, 0);
   padding: 0 20%;
   display: flex;
   gap: 15%;
@@ -25,12 +25,12 @@
     }
   }
 
-  nav{
+  nav {
     display: flex;
     gap: 40px;
     height: 100%;
     align-items: center;
-    span{
+    span {
       margin-top: 15px;
       padding-bottom: 10px;
       box-sizing: border-box;
@@ -38,8 +38,8 @@
       font-family: sans-serif;
       color: rgb(208, 202, 202);
       cursor: pointer;
-      &:hover{
-          color: rgb(162, 162, 162);
+      &:hover {
+        color: rgb(162, 162, 162);
         border-bottom: 1px solid rgb(162, 162, 162);
       }
     }
