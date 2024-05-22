@@ -29,7 +29,7 @@ const Admin = () => {
 
   return (
     <div className="px-20 py-10">
-      <form className="w-fit bg-neutral-200 p-10 rounded-md" onSubmit={onSubmit}>
+      <form className="w-fit bg-neutral-200 p-10 rounded-md mx-auto" onSubmit={onSubmit}>
         <h2 className="text-2xl mb-4">Add</h2>
         <div className="flex flex-col gap-4">
           <input
@@ -53,7 +53,7 @@ const Admin = () => {
         </div>
         <button className="px-2 py-2 bg-green-500 w-full mt-4 rounded-md">Add</button>
       </form>
-      <div className="mt-20 flex gap-4 flex-wrap">
+      <div className="mt-20 flex gap-4 flex-wrap justify-center">
         {data &&
           data.map((item, idx) => {
             return (

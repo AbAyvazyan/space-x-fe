@@ -23,7 +23,7 @@ const Home = () => {
           <img
             src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-beautiful-planet-mars-png-image_13327984.png"
             alt=""
-            className="w-full h-[80%] z-50"
+            className="w-full h-[80%] z-50 object-contain"
           />
         </div>
         <div className=" w-full grid grid-cols-2 gap-2">

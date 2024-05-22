@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header
       className={`w-full h-28 absolute border-s-neutral-400 border bg-transparent lg:px-16 md:px-12 sm:px-8 px-4 top-0 flex items-center justify-evenly z-50 ${isAdmin ? 'hidden' : 'block'}`}>
-      <NavLink to="/" className="w-fit h-full border border-x-neutral-50">
+      <NavLink to="/" className="w-fit h-full border  flex items-center">
         <img src={logo} alt="space-x-logo" className="w-60 h-fit" />
       </NavLink>
       <nav className="h-full flex items-center gap-6">
